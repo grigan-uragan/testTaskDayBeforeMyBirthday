@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter your birthday day with format: ");
+        System.out.println("Enter your birthday day: ");
         String day = reader.readLine();
         System.out.println("Enter your birthday month: ");
         String month = reader.readLine();
